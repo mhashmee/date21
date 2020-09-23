@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg {
+    background-image: url(./background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+button {
+    color: black;
+    border-radius: 25px;
+    border: black;
+    transition: 0.8s;
+}
+
+button:hover {
+    outline-color: brown;
+    box-shadow: lightgray;
+}
+
+.flex {
+    display: flex;
+}
+
+.code {
+    font-size: 1.7rem;
+}
+
+.code1 {
+    font-size: 1.1rem;
+}
+
+.picture {
+    background-image: url(./2000x750/laptop-dark-room-banner-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 38rem;
+    width: 100%;
+    border: none;
+}
+
+.form form {
+    margin-top: 150px;
+}
+
+.form form input {
+    margin-bottom: 50px;
+    width: 80%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+
+.form form button:hover {
+    color: white;
+    background-color: tomato;
+}
+
+.form form button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.we {
+    color: white;
+    text-align: left;
+    font-size: 4rem;
+    padding-top: 8rem;
+}
+
+.read {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.btn0 {
+    color: white;
+    background: white;
+    height: 3rem;
+    width: 10rem;
+    background: transparent;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+.btn0:hover {
+    background: blue;
+    color: white;
+}
+
+.web {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.box:hover {
+    background-color: rgba(133, 126, 126, 0.74);
+    color: white;
+}
+
+.img {
+    height: 5rem;
+    width: 5rem;
+    margin: -1.5rem 0 0 5rem;
+}
+
+.jack {
+    font-size: 1.3rem;
+}
+
+.only {
+    margin-top: -.8rem;
+}
+
+.other {
+    border-top: 3px solid rgb(107, 104, 104);
+}
+
+li:hover {
+    color: rgb(128, 255, 128);
+}
